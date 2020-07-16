@@ -29,7 +29,8 @@ a {
     height: 40px;
     margin-left: 450px;
     position: relative;
-    display: none;
+    display: block;
+    margin: 5px;
 }
 
 .header .logo-user img {
@@ -51,7 +52,6 @@ a {
 
 .header .menu ul {
     list-style: none;
-    line-height: 55px;
 }
 
 .header .menu ul li {
@@ -111,6 +111,35 @@ a {
     color: #fff;
     position: absolute;
     right: 10px;
+}
+
+.search-login .logo-user .sub-logo {
+    line-height: 30px;
+    background: #fff;
+    position: absolute;
+    left: -38px;
+    top: 70px;
+    text-align: center;
+    width: 200px;
+    float: unset;
+    z-index: 100000;
+    color: #000;
+    box-shadow: 0px 0px 3px 3px rgba(173, 170, 170, 0.952);
+    list-style: none;
+    display: none;
+}
+
+.search-login .logo-user .sub-logo a {
+    font-size: 1.2em;
+    color: #000;
+}
+
+.search-login .logo-user:active>.sub-logo {
+    display: block;
+}
+
+.logo-user .sub-logo a:hover {
+    color: orangered;
 }
 
 .header .menu ul li .sub-menu {
