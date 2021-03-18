@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Admin - Dashboard</title>
-	<link href="{{asset('public/backend/css/bootstrap.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/backend/css/font-awesome.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/backend/css/datepicker3.css')}}" rel="stylesheet">
-	<link href="{{asset('public/backend/css/styles.css')}}" rel="stylesheet">
+	<link href="public/backend/css/bootstrap.min.css" rel="stylesheet">
+	<link href="public/backend/css/font-awesome.min.css" rel="stylesheet">
+	<link href="public/backend/css/datepicker3.css" rel="stylesheet">
+	<link href="public/backend/css/styles.css" rel="stylesheet">
 	
 	<!--Custom Font-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -62,14 +62,14 @@
 			
 	</div>	<!--/.main-->
 	
-	<script src="{{asset('public/backend/js/jquery-1.11.1.min.js')}}"></script>
-	<script src="{{asset('public/backend/js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('public/backend/js/chart.min.js')}}"></script>
-	<script src="{{asset('public/backend/js/chart-data.js')}}"></script>
-	<script src="{{asset('public/backend/js/easypiechart.js')}}"></script>
-	<script src="{{asset('public/backend/js/easypiechart-data.js')}}"></script>
-	<script src="{{asset('public/backend/js/bootstrap-datepicker.js')}}"></script>
-	<script src="{{asset('public/backend/js/custom.js')}}"></script>
+	<script src="public/backend/js/jquery-1.11.1.min.js'"></script>
+	<script src="public/backend/js/bootstrap.min.js"></script>
+	<script src="public/backend/js/chart.min.js'"></script>
+	<script src="public/backend/js/chart-data.js"></script>
+	<script src="public/backend/js/easypiechart.js"></script>
+	<script src="public/backend/js/easypiechart-data.js"></script>
+	<script src="public/backend/js/bootstrap-datepicker.js"></script>
+	<script src="public/backend/js/custom.js"></script>
 	<script>
 		function out(){
 			setCookie('admin_email',null);
