@@ -18,14 +18,14 @@ class AdminController extends Controller
         return view('admin.admin_login');
     }
     public function dashBoard(){
-        $check = Session::get('admin_active');
-        if($check == '1'){
+        // $check = Session::get('admin_active');
+        // if($check == '1'){
             return view('admin.admin_layout');
-        }
-        else{
-            return Redirect::to('/admin');
-          //  return view('admin.admin_login');
-        }
+        // }
+        // else{
+        //     return Redirect::to('/admin');
+        //   //  return view('admin.admin_login');
+        // }
     }
     public function login(Request $request){
         $admin_email = $request->email;
@@ -60,27 +60,27 @@ class AdminController extends Controller
         return Redirect::to('/admin');
     }
     public  function  showCategories(){
-        $check = Session::get('admin_active');
-        if($check == 1){
+        // $check = Session::get('admin_active');
+        // if($check == 1){
             $data = DB::table('tbl_categories')->get();
             
             $manager_categories = view('admin.admin_categories')->with('categories',$data);
             return view('layout')->with('admin.admin_categories',$manager_categories);
-        }
-        else{
-            return Redirect::to('/admin');
-        }
+        // }
+        // else{
+        //     return Redirect::to('/admin');
+        // }
     }
     public  function  showPosts(){
-        $check = Session::get('admin_active');
-        if($check == 1){
+        // $check = Session::get('admin_active');
+        // if($check == 1){
         $data = DB::table('tbl_post')->get();
         $dateCat = DB::table('tbl_categories')->get();
         $manager_post = view('admin.admin_post')->with('posts',$data)->with('categories',$dateCat);
         return view('layout')->with('admin.admin_post',$manager_post);
-        }
-        else{
-            return Redirect::to('/admin');
-        }
+        // }
+        // else{
+        //     return Redirect::to('/admin');
+        // }
     }
 }
