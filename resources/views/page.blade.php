@@ -313,7 +313,7 @@
                                     <a href="/ ">
                                         <div class="inner">
                                             <div class="card-thumnails">
-                                                <img src="img/card-thumbails.jpg" alt="Add Title Of Post Here">
+                                                <img src="{{asset('public/fontend/img/card-thumbails.jpg')}}" alt="Add Title Of Post Here">
                                             </div>
                                             <div class="card-content">
                                                 <div class="categories">
@@ -334,7 +334,7 @@
                                     <a href="/ ">
                                         <div class="inner">
                                             <div class="card-thumnails">
-                                                <img src="img/card-thumbails.jpg" alt="Add Title Of Post Here">
+                                                <img src="{{asset('public/fontend/img/card-thumbails.jpg')}}" alt="Add Title Of Post Here">
                                             </div>
                                             <div class="card-content">
                                                 <div class="categories">
@@ -355,7 +355,7 @@
                                     <a href="/ ">
                                         <div class="inner">
                                             <div class="card-thumnails">
-                                                <img src="img/card-thumbails.jpg" alt="Add Title Of Post Here">
+                                                <img src="{{asset('public/fontend/img/card-thumbails.jpg')}}" alt="Add Title Of Post Here">
                                             </div>
                                             <div class="card-content">
                                                 <div class="categories">
