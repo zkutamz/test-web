@@ -12,7 +12,7 @@ class CategoriesConntroller extends Controller
 {
     public function addCategories(Request $request){
         $data = array();
-        $data['name'] = $request->cat_name;
+        $data['cat_name'] = $request->cat_name;
         $data['created_at'] = date("Y/m/d H:i:s");
         $data['updated_at'] = date("Y/m/d H:i:s");
         DB::table('tbl_categories')->insert($data);
