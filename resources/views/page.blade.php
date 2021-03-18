@@ -210,7 +210,7 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{asset('public/fontend/img/slider.jpg'})}" alt="Dream MAchines | Maccalan">
+                            <img src="{{asset('public/fontend/img/slider.jpg')}}" alt="Dream MAchines | Maccalan">
                         </div>
                         <div class="swiper-slide">
                             <img src="{{asset('public/fontend/img/slider-2.jpg')}}" alt="Dream MAchines | Maccalan">
