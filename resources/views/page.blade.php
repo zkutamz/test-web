@@ -17,9 +17,12 @@
     <meta property="og:site_name" content="" />
     <meta property="og:image" content="" />
 
-    <link rel="stylesheet" href="{{asset('public/fontend/dest/style.min.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('public/fontend/dest/style.min.css')}}">
     <link rel="stylesheet" href="{{asset('public/fontend/dest/fonts.css')}}">
-    <link rel="stylesheet" href="{{asset('public/fontend/dest/stylelibs.min.css')}}">
+    <link rel="stylesheet" href="{{asset('public/fontend/dest/stylelibs.min.css')}}"> -->
+    <link rel="stylesheet" href="public/fontend/dest/style.min.css">
+    <link rel="stylesheet" href="public/fontend/dest/fonts.css">
+    <link rel="stylesheet" href="public/fontend/dest/stylelibs.min.css">
     <style>
         @font-face {
             font-family: 'fmain';
