@@ -608,8 +608,8 @@
             </ul>
         </div>
     </footer>
-    <script type="text/javascript" src="{{asset('public/fontend/dest/jsmain.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('public/fontend/js/main.js')}}"></script>
+    <script type="text/javascript" src="public/fontend/dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="public/fontend/js/main.js"></script>
 </body>
 
 </html>
