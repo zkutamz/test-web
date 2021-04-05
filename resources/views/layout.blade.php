@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Admin - Dashboard</title>
-	<link href="public/backend/css/bootstrap.min.css" rel="stylesheet">
-	<link href="public/backend/css/font-awesome.min.css" rel="stylesheet">
-	<link href="public/backend/css/datepicker3.css" rel="stylesheet">
-	<link href="public/backend/css/styles.css" rel="stylesheet">
+	<link href="{{asset('public/backend/css/bootstrap.min.css')}}" rel="stylesheet">
+	<link href="{{asset('public/backend/css/font-awesome.min.css')}}" rel="stylesheet">
+	<link href="{{asset('public/backend/css/datepicker3.css')}}" rel="stylesheet">
+	<link href="{{asset('public/backend/css/styles.css')}}" rel="stylesheet">
 	
 	<!--Custom Font-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,8 +39,9 @@
 		
 		<ul class="nav menu">
 			<li class="active"><a href="{{URL::to('/adminDashBoard')}}"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-			<li><a href="{{URL::to('/posts')}}"><em class="fa fa-calendar">&nbsp;</em> posts</a></li>
-			<li><a href="{{URL::to('/categories')}}"><em class="fa fa-bar-chart">&nbsp;</em> categoies</a></li>
+			<li><a href="{{URL::to('/posts')}}"><em class="fa fa-calendar">&nbsp;</em> Posts</a></li>
+			<li><a href="{{URL::to('/categories')}}"><em class="fa fa-bar-chart">&nbsp;</em> Categoies</a></li>
+			<li><a href="{{URL::to('/brands')}}"><em class="fa fa-bar-chart">&nbsp;</em> Brands</a></li>
 			<li><a href="{{URL::to('/properties')}}"><em class="fa fa-bar-chart">&nbsp;</em> properties</a></li>
 			<li><a href="{{URL::to('/logout')}}"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
 		</ul>
@@ -62,14 +63,14 @@
 			
 	</div>	<!--/.main-->
 	
-	<script src="public/backend/js/jquery-1.11.1.min.js'"></script>
-	<script src="public/backend/js/bootstrap.min.js"></script>
-	<script src="public/backend/js/chart.min.js'"></script>
-	<script src="public/backend/js/chart-data.js"></script>
-	<script src="public/backend/js/easypiechart.js"></script>
-	<script src="public/backend/js/easypiechart-data.js"></script>
-	<script src="public/backend/js/bootstrap-datepicker.js"></script>
-	<script src="public/backend/js/custom.js"></script>
+	<script src="{{asset('public/backend/js/jquery-1.11.1.min.js')}}"></script>
+	<script src="{{asset('public/backend/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('public/backend/js/chart.min.js')}}"></script>
+	<script src="{{asset('public/backend/js/chart-data.js')}}"></script>
+	<script src="{{asset('public/backend/js/easypiechart.js')}}"></script>
+	<script src="{{asset('public/backend/js/easypiechart-data.js')}}"></script>
+	<script src="{{asset('public/backend/js/bootstrap-datepicker.js')}}"></script>
+	<script src="{{asset('public/backend/js/custom.js')}}"></script>
 	<script>
 		function out(){
 			setCookie('admin_email',null);

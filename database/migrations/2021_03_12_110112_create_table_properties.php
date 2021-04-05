@@ -15,8 +15,10 @@ class CreateTableProperties extends Migration
     {
         Schema::create('tbl_properties', function (Blueprint $table) {
             $table->id();
-            $table->integer('posts_load');
-            $table->integer('posts_show');
+            $table->integer('seo_title_min');
+		$table->integer('seo_title_max');
+            $table->integer('seo_description_min');
+	$table->integer('seo_description_max');
             $table->string('banner_title');
             $table->timestamps();
         });
